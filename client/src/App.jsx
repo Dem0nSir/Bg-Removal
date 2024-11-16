@@ -12,7 +12,7 @@ function App() {
         <div className="min-h-screen bg-slate-50">
             <Navbar/>
             <Routes>
-                <Route path="/" element={<Home/>} />
+                <Route path="/" element={<Home/>}/>
                 <Route path="/result" element={<Result/>}/>
                 <Route path="/buy" element={<BuyCredit/>}/>
             </Routes>
